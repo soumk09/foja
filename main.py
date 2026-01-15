@@ -22,7 +22,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # --- CONFIGURATION ---
-SAVE_SERVER_URL = "https://beanlike-brian-unsweepable.ngrok-free.dev/save_profile"
+SAVE_SERVER_URL = "https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/save_profile"
 MAX_RETRY_SAVE = 3
 SAVE_TIMEOUT = 10
 
@@ -375,4 +375,5 @@ if __name__ == "__main__":
     
     # Start Main Logic
     main_cli_automation()
+
 
