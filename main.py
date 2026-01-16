@@ -23,7 +23,8 @@ logger = logging.getLogger(__name__)
 
 # --- CONFIGURATION ---
 # Example (Apna wala link use karna)
-SAVE_SERVER_URL = "https://broadcasting-frame-thing-old.trycloudflare.com/save_profile"
+# Aisa dikhna chahiye:
+SAVE_SERVER_URL = "https://api.fojadomain.fun/save_profile"
 MAX_RETRY_SAVE = 3
 SAVE_TIMEOUT = 10
 
@@ -376,6 +377,7 @@ if __name__ == "__main__":
     
     # Start Main Logic
     main_cli_automation()
+
 
 
 
